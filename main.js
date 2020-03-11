@@ -5,11 +5,15 @@ window.addEventListener('keydown', (e) => {
   audio.currentTime = 0; 
   audio.play();
   key.classList.add('playing');
+
+  setTimeout(() => {
+    key.classList.remove('playing');
+  }, 0.10);
 });
 
-const removeTransition = (e) => {
-    console.log(e)
-}
+// const removeTransition = (e) => {
+//     console.log(e)
+// }
 
-const keys = document.querySelectorAll('.key');
-keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
+// const keys = document.querySelectorAll('.key');
+// keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
