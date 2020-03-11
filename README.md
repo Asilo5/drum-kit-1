@@ -19,4 +19,4 @@ Drüm Kït was built using:
   
 ## Images of Drüm Kït
 
-![Drüm Kït]()
+![Drüm Kït](https://github.com/Asilo5/drum-kit-1/blob/master/Screenshot%202020-03-10%20at%2021.56.53.png)
