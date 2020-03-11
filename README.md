@@ -4,7 +4,7 @@ Wanting to refresh my vanilla JavaScript skills, I decided to do Wesbos 30 day V
 
 ## View Drüm Kït locally in your computer
 
-You can also view Drüm Kït live when you [click here](https://asilo5.github.io/drum-kit.github.io/) !
+You can also view Drüm Kït live when you [click here](https://asilo5.github.io/drum-kit-1/) !
 
 Clone the repo to your terminal :``` $ git clone https://github.com/Asilo5/drum-kit-1.git```
 
