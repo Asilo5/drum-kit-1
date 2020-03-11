@@ -6,14 +6,12 @@ window.addEventListener('keydown', (e) => {
   audio.play();
   key.classList.add('playing');
 
-  setTimeout(() => {
-    key.classList.remove('playing');
-  }, 0.10);
 });
 
-// const removeTransition = (e) => {
-//     console.log(e)
-// }
+function removeTransition(e) {
+    if(e.propertyName !== 'transform') return;
+    this.classList.remove('playing');
+};
 
-// const keys = document.querySelectorAll('.key');
-// keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
+const keys = document.querySelectorAll('.key');
+keys.forEach((key) => key.addEventListener('transitionend', removeTransition));
